@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
   crypto: ^2.1.4
   http: ^0.12.1
-  flutter_inappwebview: ^4.0.0
+  flutter_inappwebview:
+    git:
+      url: https://github.com/drashti-04/flutter_inappwebview
+      ref: v4.0.0
 
 dev_dependencies:
   flutter_test:
